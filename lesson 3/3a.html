@@ -1,0 +1,66 @@
+<!-- 1. Create an HTML element then
+    2. Style it with one-by-one -->
+
+    <style>
+        /* . means targeting a class not element */
+        /* In CSS space means margins */
+        .subcribe-button {
+            background-color: rgb(200, 2, 2);
+            /* Changing color of text button */
+            color: white;
+            border: none;
+            height: 36px;
+            width: 105px;
+            /* more number, more round */
+            border-radius: 3px;
+            /* changing cursor type */
+            cursor: pointer;
+            margin-right: 8px;
+        }  
+    
+        /* :hover here is also known as pseudo-class */
+        .subcribe-button:hover {
+            background-color: green;
+        }
+    
+        .join-button {
+            background-color: white;
+            border-color: blue;
+            border-style: solid;
+            border-width: 1px;
+            border-radius: 3px;
+            height: 36px;
+            width: 70px;
+            color: blue;
+            cursor: pointer;
+        }
+    
+        .tweet-button {
+            /* FOR ROUNDED CORNER
+            Set the border radius to half of the
+            height or width (which ever is low) */
+            border-radius: 18px;
+            height: 36px;
+            width: 70px;
+            color: white;
+            background-color: rgb(0, 106, 255);
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 14px;
+            margin-left: 8px;
+        }
+        
+    </style>
+    
+    <button class="subcribe-button">
+        SUBSCRIBE
+    </button>
+    
+    <button class="join-button">
+        JOIN
+    </button>
+    
+    <button class="tweet-button">
+        Tweet
+    </button>
