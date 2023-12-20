@@ -1,0 +1,56 @@
+    /* Applies on all the paragraph */
+    p {
+        font-family: Roboto;
+        /* font-family: Arial; */
+        margin-bottom: 0;
+    }
+    
+    .video-title {
+       /* font-family: Arial; */
+       font-weight: bold;
+       font-size: 20px;
+       width: 350px;
+       line-height: 25px;
+       margin-bottom: 3px;
+    }
+
+    .video-stats {
+        /* font-family: Arial; */
+        font-size: 14px;
+        color: rgb(96, 96, 96);
+        margin-top: 0;
+        /* margin-bottom: 0; */
+    }
+
+    .video-author {
+        /* font-family: Arial; */
+        font-size: 14px;
+        color: rgb(96, 96, 96);
+        margin-top: 20px;
+        /* margin-bottom: 0; */
+    }
+
+    .video-description {
+        /* font-family: Arial; */
+        font-size: 14px;
+        color: rgb(96, 96, 96);
+        width: 320px;
+        line-height: 21px;
+        margin-top: 20px;
+        margin-bottom: 100px;
+    }
+
+    .apple-text {
+        margin-bottom: 50px;
+        font-size: 13px;
+        background-color: rgb(227, 65, 64);
+        color: white;
+        text-align: center;
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+
+    .shop-link:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
