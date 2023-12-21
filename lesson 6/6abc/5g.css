@@ -1,0 +1,27 @@
+p {
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.site {
+    margin-bottom: 5px;
+}
+
+.site-header {
+    font-weight: bold;
+}
+
+.site-tag {
+    color: grey;
+}
+
+.description {
+    width: 475px;
+    margin-bottom: 20px;
+}
+
+.tag {
+    color: rgb(113, 113, 228);
+    font-size: 13px;
+}
