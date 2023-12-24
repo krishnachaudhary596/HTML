@@ -6,12 +6,24 @@
            .thumbnail {
             width: 380px;
             height: 380px;
-            object-fit: cover;
+            /* object-fit: contain; */
+            object-position: right;
+            border-width: 3px;
+            border-style: solid;
+            border-color: red;
+           } 
+
+           .search-bar {
+            font-size: 20px;
+            margin-left: 12px;
            }
+
         </style>
     </head>
     <body>
         <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="">
+        <input class="search-bar" type="text" placeholder="Search">
+        
     </body>
 </html>
 
