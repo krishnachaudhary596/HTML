@@ -11,13 +11,26 @@
     font-size: 24px;
     border-radius: 3px;
     border-style: solid;
+    margin-bottom: 6px;
 }
 
 .Policy {
-    font-size: 16px;
+    font-size: 17px;
     color: rgba(84, 72, 72, 0.849);
+    margin-top: 5px;
+    margin-bottom: 6px;
 }
 
 .agree-button {
-    
+    text-align: center;
+    font-size: 16px;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    border-radius: 30px;
+    background-color:#0077b5;
+    border-style: none;
+    margin-top: 6px;
 }
