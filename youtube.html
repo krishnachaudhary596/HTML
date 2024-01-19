@@ -4,14 +4,20 @@
         <title>Youtube Clone</title>
         <style>
            .thumbnail {
-            width: 380px;
-            height: 380px;
-            /* object-fit: contain; */
+            width: 300px;
+            /* When we set width the height also gets
+            adjusted so that it can maintain it dimension.
+            If you set height also then the image looses its
+            shape and gets adjusted as per height given */
+            /* height: 380px;
+            object-fit: contain; 
+            object-fit: cover;
             object-position: right;
             border-width: 3px;
             border-style: solid;
             border-color: red;
-           } 
+           }  */
+
 
            .search-bar {
             font-size: 20px;
@@ -23,7 +29,15 @@
     <body>
         <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="">
         <input class="search-bar" type="text" placeholder="Search">
-        
+        <p>
+            Talking Tech and AI with Google CEO Sundar Pichai!
+        </p>
+        <p>
+            Marques Brownlee
+        </p>
+        <p>
+            3.4M views &#183; 6 months ago
+        </p>
     </body>
 </html>
 
