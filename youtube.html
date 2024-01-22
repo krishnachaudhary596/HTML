@@ -5,38 +5,49 @@
         <style>
            .thumbnail {
             width: 300px;
+            /* inline-block to block */
+            display: block;
             /* When we set width the height also gets
             adjusted so that it can maintain it dimension.
             If you set height also then the image looses its
             shape and gets adjusted as per height given */
             /* height: 380px;
-            
-            object-fit: contain; 
+            /* Here object fit cover will work with height
+            and width. */
+            /* object-fit: contain; 
             object-fit: cover;
             object-position: right;
             border-width: 3px;
             border-style: solid;
-            border-color: red;
-           }  */
-
+            border-color: red; */
+           }  
 
            .search-bar {
             font-size: 20px;
             margin-left: 12px;
            }
+            /* block to inline-block
+           .video-author, .video-stats {
+            display: block;
+           } */
+
+           /* 1. Block Element = takes up the entire line
+            2. Inline-block Element = only takes up as 
+            much space as needed
+            3. Inline Element = appear within a line of text */
 
         </style>
     </head>
     <body>
         <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="">
         <input class="search-bar" type="text" placeholder="Search">
-        <p>
-            Talking Tech and AI with Google CEO Sundar Pichai!
+        <p class="video-title">
+            Talking Tech and AI with <strong>Google</strong> CEO Sundar Pichai!
         </p>
-        <p>
+        <p class="video-author">
             Marques Brownlee
         </p>
-        <p>
+        <p class="video-stats">
             3.4M views &#183; 6 months ago
         </p>
     </body>
